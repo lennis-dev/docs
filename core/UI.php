@@ -119,6 +119,7 @@ class UI
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docs</title>
     <link rel="stylesheet" href="/static/style/style.css">
+    <link rel="stylesheet" href="/static/style/custom.css">
 </head>
 
 <body>
