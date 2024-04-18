@@ -10,18 +10,33 @@ function lightTheme() {
     document.querySelector(".theme-switcher input").checked = true;
 }
 
+
+function updateTheme() {
+    if (localStorage.getItem("theme") === "dark") {
+        darkTheme();
+    } else if (localStorage.getItem("theme") === "light") {
+        lightTheme();
+    } else {
+        darkTheme();
+    }
+}
+
+updateTheme();
+
+const bc = new BroadcastChannel("theme");
+bc.onmessage = function (ev) {
+    if (ev.data.theme === "dark") {
+        darkTheme();
+    } else {
+        lightTheme();
+    }
+};
+
 document.querySelector(".theme-switcher input").addEventListener("change", function () {
     if (this.checked) {
         lightTheme();
     } else {
         darkTheme();
     }
+    bc.postMessage({ theme: localStorage.getItem("theme") });
 });
-
-if (localStorage.getItem("theme") === "dark") {
-    darkTheme();
-} else if (localStorage.getItem("theme") === "light") {
-    lightTheme();
-} else {
-    darkTheme();
-}
