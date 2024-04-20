@@ -429,21 +429,25 @@ nav details>a {
 }
 
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px;
+}
 
 
+th {
+    text-align: left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+tr:last-child>td {
+    border-bottom: none;
+}
 
 header .dropdown {
     margin-left: auto;
