@@ -1,0 +1,29 @@
+[
+    {
+        "label": "Overview",
+        "link": "",
+        "type": "item"
+    },
+    {
+        "label": "API Reference",
+        "link": "api",
+        "type": "category",
+        "items": [
+            {
+                "label": "Identify",
+                "link": "identify",
+                "type": "item"
+            },
+            {
+                "label": "Authorize",
+                "link": "authorize",
+                "type": "item"
+            }
+        ]
+    },
+    {
+        "label": "Auth Flow",
+        "link": "auth-flow",
+        "type": "item"
+    }
+]
