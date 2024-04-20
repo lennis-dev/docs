@@ -32,7 +32,7 @@ THE SOFTWARE.
     --background-secondary-color: #111;
     --text-color: #ccc;
     --border-color: #888;
-    
+
     /* 
       Blockquote Colors
     */
@@ -41,8 +41,6 @@ THE SOFTWARE.
     --blockquote-caution-color: #dc3545;
     --blockquote-important-color: #17a2b8;
     --blockquote-note-color: #6c757d;
-    
-    --primary-color: #f00;
 }
 
 body:has(.theme-switcher input:checked) {
@@ -286,12 +284,17 @@ img {
     padding: 10px;
 }
 
+code,
 pre {
     background-color: var(--background-secondary-color);
     color: var(--text-color);
     border-radius: 10px;
     overflow-x: auto;
-    padding: 10px 20px;
+    padding: 5px;
+}
+
+pre {
+    padding: 20px;
 }
 
 /*
