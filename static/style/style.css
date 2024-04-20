@@ -32,13 +32,16 @@ THE SOFTWARE.
     --background-secondary-color: #111;
     --text-color: #ccc;
     --border-color: #888;
-    --primary-color: #007bff;
+    
+    /* 
+      Blockquote Colors
+    */
     --blockquote-tip-color: #28a745;
     --blockquote-warning-color: #ffc107;
     --blockquote-caution-color: #dc3545;
     --blockquote-important-color: #17a2b8;
     --blockquote-note-color: #6c757d;
-
+    
     --primary-color: #f00;
 }
 
