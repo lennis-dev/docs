@@ -59,7 +59,7 @@ class UI
         if ($this->html === self::$e404) {
             return $this->html;
         } else {
-            $footer = "<footer>Edit this page on <a href='https://github.com/LennisDev/webDocs'>GitHub</a></footer>";
+            $footer = "<footer>Edit this page on <a href='https://github.com/lennis-dev/docs/blob/main/docs/" . $this->documentation . "/" . $this->version . "/" . $this->filePath . "'>GitHub</a></footer>";
             return $this->html . $footer;
         }
     }
