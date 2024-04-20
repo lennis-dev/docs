@@ -258,7 +258,6 @@ li {
 
 li.checkbox {
     list-style-type: none;
-    ;
 }
 
 ul:has(> li.checkbox) {
@@ -295,6 +294,10 @@ pre {
 
 pre {
     padding: 20px;
+}
+
+pre>code {
+    padding: 0px;
 }
 
 /*
