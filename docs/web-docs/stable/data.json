@@ -1,0 +1,34 @@
+[
+    {
+        "label": "Installation",
+        "link": "installation",
+        "type": "item"
+    },
+    {
+        "label": "Getting Started",
+        "link": "getting-started",
+        "type": "category",
+        "items": [
+            {
+                "label": "Create a new documentaion",
+                "link": "create-documentation",
+                "type": "item"
+            },
+            {
+                "label": "Add a new page",
+                "link": "new-page",
+                "type": "item"
+            },
+            {
+                "label": "Create the sidebar",
+                "link": "create-sidebar",
+                "type": "item"
+            }
+        ]
+    },
+    {
+        "label": "About",
+        "link": "about",
+        "type": "item"
+    }
+]
