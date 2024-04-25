@@ -566,32 +566,6 @@ header .dropdown {
         padding-right: 10px;
     }
 
-    blockquote {
-        padding: 10px 10px;
-        margin: 10px 0px;
-    }
-
-    blockquote.tip::before,
-    blockquote.warning::before,
-    blockquote.caution::before,
-    blockquote.important::before,
-    blockquote.note::before {
-        height: 15px;
-        width: 15px;
-        background-size: 15px 15px;
-    }
-
-    blockquote.tip::after,
-    blockquote.warning::after,
-    blockquote.caution::after,
-    blockquote.important::after,
-    blockquote.note::after {
-        height: 15px;
-        line-height: 15px;
-        top: 10px;
-        left: 25px;
-    }
-
     footer {
         padding: 20px 0px;
     }
